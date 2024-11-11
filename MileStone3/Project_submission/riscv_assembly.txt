@@ -1,0 +1,11 @@
+blt x1, x19, 16
+add x22, x18, x28
+sb x6, 1980(x7)
+xor x2, x20, x19
+and x18, x20, x22
+srl x20, x8, x0
+bne x31, x13, -4
+beq x9, x21, -8
+sw x1, 1908(x16)
+lui x18, -291349
+ecall

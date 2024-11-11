@@ -1,0 +1,22 @@
+ori x10, x26, 1236
+sh x25, 2016(x2)
+slti x16, x24, -1740
+srai x19, x2, 1700
+sltu x31, x21, x2
+or x12, x28, x29
+beq x28, x23, 56
+xor x19, x5, x20
+auipc x9, 58967
+addi x8, x11, -1176
+srli x30, x20, -56
+slt x31, x15, x10
+add x5, x25, x0
+ecall
+sub x13, x13, x22
+sra x16, x15, x23
+ebreak
+sw x12, 1096(x25)
+lh x19, 1360(x9)
+lbu x13, -1904(x7)
+bltu x22, x17, -4
+ecall

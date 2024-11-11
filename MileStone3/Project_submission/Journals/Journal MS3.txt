@@ -1,0 +1,15 @@
+Important Note: We worked together continuously on Friday and Saturday to finish the project, therefore, we’ve done the same things together.
+
+Friday: April 12
+- Drew pipelined datapath
+
+Saturday: April 13 -  Implemented The pipelined CPU but with two separate memories
+
+-  Tested to see that the pipelined datapath is working
+ Sunday: April 21
+-  Changed to a single memory successfully 
+-  Made 3 test cases
+
+Monday: April 22
+-  Made the 3 remaining test cases
+-  created the test_generator using python 

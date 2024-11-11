@@ -1,0 +1,17 @@
+(All completed in one day together) Friday, 22/3/2024:
+* Initialized the project setup for the single-cycle RISC-V 32I processor
+* Completed the data path diagram
+* Designed the ALU Control Unit with a detailed switch-case structure to map funct3, funct7, and ALUop signals to specific ALU operations.
+* Updated the Control Unit, incorporating logic to handle the decoding of RISC-V 32I opcodes and generate the necessary control signals for each instruction.
+* Expanded the ALU's capabilities to include comprehensive arithmetic and bitwise operations, ensuring compatibility with the full set of RISC-V 32I instructions.
+* Implemented the Branch Unit with advanced logic to evaluate conditions based on ALU flags for accurate branch decision-making.
+* Refined the Data Path, integrating all modules (ALU, Control Unit, Branch Unit, and Data Memory) to ensure seamless data flow and synchronization.
+* Enhanced the Data Memory module for improved handling of word operations
+* Began debugging in Vivado, examining the code to identify and fix syntax and logical errors across all modules.
+* Debugged and fixed errors in Slli instruction
+* Debugged and fixed errors in ALU Control Unit
+* Conducted tests for individual modules, verifying the operations of the ALU, Data Memory, and Control Unit in isolation.
+* Executed system tests to validate the processor's performance with instruction sequences, focusing on arithmetic and logic instructions.
+* Performed testing with complex instruction combinations
+* Completed the final verification, running the processor
+* Documented the entire development process, completing the report of the milestone
